@@ -7,36 +7,36 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
-                <ul id="sidemenu">
+                <ul>
                     <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <!--<i class="fas fa-times" onclick="closemenu()"></i>-->
                 </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <!--<i class="fas fa-bars" onclick="openmenu()"></i>-->
             </nav>
             <div class="header-text">
-                <p>Software Developer</p>
-                <h1>Hi, I'm <span>Hassan<br>Wakir</span> From Sri Lanka</h1>
+                <h1>VL Fashion</h1>
+                <p>The best service. The best styles.</p>
             </div>
         </div>
     </div>
-    <!--<div class="container">
+    <div class="container">
+        <p  id="contactbutton">Need to speak with a stylist?</p>
+        <a href="#contact" class="btn btn3">Schedule a call</a>
+    </div>
+    <div class="container" id="cart">
         <div id="my-store-82750842"></div>
         <div>
             <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?82750842&data_platform=code&data_date=2022-11-29" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-82750842");</script>
         </div>
-    </div>-->
-    <!-----------about-------------->
+    </div>
+    <!-----------about--------------
     <div id="about">
         <div class="container">
             <div class="row">
@@ -80,7 +80,7 @@
             </div>
         </div>
     </div>
-    <!-----------services----------->
+    -----------services-----------
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
@@ -88,67 +88,59 @@
                 <div>
                     <i class="fas fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Multimedia Diploma at at Earth University College.
-                        And I always work to word my goals very efficiently.
-                        I am a team player and a very optimistic person.</p>
+                    <p>Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fas fa-crop-alt"></i>
                     <h2>UI/UX Design</h2>
-                    <p>Multimedia Diploma at at Earth University College.
-                        And I always work to word my goals very efficiently.
-                        I am a team player and a very optimistic person.</p>
+                    <p>User experience encompasses all aspects of the end-user’s interaction with the company, its services, and its products.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fab fa-app-store"></i>
                     <h2>App Design</h2>
-                    <p>Multimedia Diploma at at Earth University College.
-                        And I always work to word my goals very efficiently.
-                        I am a team player and a very optimistic person.</p>
+                    <p>The difference between good app design and a poor one is usually the quality of its user experience.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-----------portfolio----------->
+    -----------portfolio-----------
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Class Video recording App</h3>
+                        <p>Website for Earth university college to view class recordings.</p>
+                        <a href="http://www.earth.lk/project/2021/classes/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
                         <h3>Distributed Supermarket System</h3>
-                        <p>And I always work to word my goals very efficiently.
-                            I am a team player and a very optimistic person.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <p>My final year project, which utilized Angular, Spring Boot, and MySQL, is already complete.
+                            This distributed supermarket management system is full-featured. You can view that in my GitHub account.</p>
+                        <a href="https://github.com/Hasshan-cmd/Supermarket-project-pro-"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>And I always work to word my goals very efficiently.
-                            I am a team player and a very optimistic person.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png">
-                    <div class="layer">
-                        <h3>Class Video recording App</h3>
-                        <p>And I always work to word my goals very efficiently.
-                            I am a team player and a very optimistic person.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Some simple applications</h3>
+                        <p>Expert in creating innovative and tailored solutions to assist businesses in achieving their goals across a wide range of industries.</p>
+                        <a href="https://github.com/Hasshan-cmd?tab=repositories"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
             <a href="#" class="btn">See more</a>
         </div>
     </div>
-    <!-----------contact----------->
+    -----------contact-----------
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -175,8 +167,9 @@
                 </div>
             </div>
         </div>
+-->
         <div class="copyright">
-            <p>copyright © Hassan. Made with <i class="fas fa-heart"></i> by mr.pro</p>
+            <h3>Call or email to book an appointment:  077-693-9127 or spellboundgalle@gmail.com</h3>
         </div>
     </div>
 </body>
@@ -195,7 +188,7 @@
         document.getElementById(tabname).classList.add("active-tab");
     }
 </script>
-<script>
+<!--<script>
     var sidemenu = document.getElementById("sidemenu");
 
     function openmenu() {
@@ -204,7 +197,7 @@
     function closemenu() {
         sidemenu.style.right = "-200px";
     }
-</script>
+</script>-->
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwuD1JDbVqiDzLj_mqWjXYPZ2BfSUZovA46F5xX2In4UM-cRr07jC9Or18d5Cv9Gxo0lA/exec'
     const form = document.forms['submit-to-google-sheet']
